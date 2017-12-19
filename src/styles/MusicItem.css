@@ -1,0 +1,22 @@
+.li_item {
+  cursor: pointer;
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 1px solid #ddd;
+  text-indent: 20px;
+  user-select: none;
+  list-style: none;
+}
+
+.focus {
+  color: #2f9842;
+  background: #ddd;
+}
+
+.li_item :hover {
+  background-color: #eee;
+}
+
+.li_item :active {
+	background: #ddd;
+}

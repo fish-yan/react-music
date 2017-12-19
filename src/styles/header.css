@@ -1,0 +1,26 @@
+
+.header {
+  box-sizing: border-box;
+  padding: 15px 25px;
+  border-bottom: 1px solid #cccccc;
+  background-color: white;
+}
+
+.caption {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.row
+{
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    width: 100%;
+}
+
+.header_img {
+  width:30px;
+  height: 30px;
+}
